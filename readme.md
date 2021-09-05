@@ -26,7 +26,7 @@ Phone: +254 705 378 641
 Email: lankipkoecharo@gmail.com
 Twitter: @derbinmayg
 ### License
-*{Determine the license under which this application can be used.  See below for more details on [MIT](license) licensing.}*
+*{Determine the license under which this application can be used.  See below for more details on [MIT](License) licensing.}*
 Copyright (c) {2021}
 **{Made with pride for <a href="https://moringaschool.com" target="_blank">Moringa School</a>}**
 Moringa SchoolMoringa School
