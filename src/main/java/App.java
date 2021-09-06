@@ -15,13 +15,13 @@ public class App {
             String message = console.readLine();
             System.out.println("enter the shift key");
             int shiftKey = Integer.parseInt(console.readLine());
-            System.out.println(Caesar.planTxt(message,shiftKey));
+            System.out.println("the ecryption is:" + Caesar.planTxt(message,shiftKey));
         } else if (selectChoice == 2) {
             System.out.println("what do you want encrypted?");
             String message = console.readLine();
             System.out.println("enter the shift key");
             int shiftKey = Integer.parseInt(console.readLine());
-           System.out.println(Decrypt.planTxt2(message,shiftKey));
+           System.out.println("the dectryption key is:" + Decrypt.planTxt2(message,shiftKey));
         } else {
             System.out.println("exit");
         }

@@ -15,9 +15,16 @@ public class CaesarTest {
     }
 
     @Test
-    public void Caesar_DoesItReturnEncryptedTxt_Encrypt(){
-            Caesar caesar = new Caesar("JOY",5);
-//            assertEquals("OTD", Caesar.planTxt(message,));
+    public void Decryption_decryptMethod_text() {
+        Decrypt decrypt = new Decrypt("aron",5);
+        assertEquals("ARON", Decrypt.planTxt2("fwts", 5));
     }
 
-}
+    @Test
+    public void Caesar_encyptMethod_text() {
+        Caesar caesar = new Caesar("fwts",5);
+        assertEquals("FWTS", Caesar.planTxt("aron",5));
+    }
+    }
+
+
